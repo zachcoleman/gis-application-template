@@ -1,0 +1,3 @@
+map:
+  setView: [51.505, -0.09] # [lat, lng] for center of map
+  setZoom: 13 # zoom level

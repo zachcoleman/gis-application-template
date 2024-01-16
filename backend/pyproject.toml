@@ -1,0 +1,26 @@
+[project]
+name = "gis-application-template"
+version = "0.0.1"
+description = "Scaffold for a simple GIS web application"
+readme = "README.md"
+license = {text="Apache 2.0"}
+keywords = ["GIS", "web"]
+authors = [
+  {email = "zacharywcoleman@gmail.com"},
+  {name = "Zach Coleman"}
+]
+requires-python = "==3.11"
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+]
+
+[project.optional-dependencies]
+dev = [
+  "bump2version",
+  "dictdiffer",
+  "pre-commit",
+  "pytest",
+  "pytest-cov[all]"
+]
